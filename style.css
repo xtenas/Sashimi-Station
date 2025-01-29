@@ -43,10 +43,10 @@ h1,
 h2,
 h3,
 h4 {
-  letter-spacing: var(--spacing);
-  text-transform: capitalize;
-  line-height: 1.25;
-  margin-bottom: 0.75rem;
+    letter-spacing: var(--spacing);
+    text-transform: capitalize;
+    line-height: 1.25;
+    margin-bottom: 0.75rem;
 }
 h1 {
     font-size: 3rem;
@@ -106,7 +106,7 @@ p {
 }
 .btn:hover {
     /* color: var(--clr-primary-3); */
-    color: var(--clr-secondary);
+    color: var(--clr-primary-3);
     background: var(--clr-primary-light);
 }
 .clearfix::after,
@@ -132,67 +132,67 @@ p {
 }
 /* animation */
 @keyframes bounce {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.3);
-  }
-  100% {
-    transform: scale(1);
-  }
+    0% {
+        transform: scale(1);
+}
+    50% {
+        transform: scale(1.3);
+}
+    100% {
+        ransform: scale(1);
+    }
 }
 
 @keyframes show {
-  0% {
-    transform: scale(1.3);
-    opacity: 0;
-  }
-  50% {
-    transform: scale(1.5);
-    opacity: 0.5;
-  }
-  100% {
-    transform: scale(1);
-    opacity: 1;
-  }
+    0% {
+        transform: scale(1.3);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.5);
+        opacity: 0.5;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
 }
 
 @keyframes slideFromRight {
-  0% {
-    transform: translateX(1000px);
-    opacity: 0;
-  }
-  50% {
-    transform: translateX(-200px);
-    opacity: 0.4;
-  }
-  75% {
-    transform: translateX(50px);
-    opacity: 0.7;
-  }
-  100% {
-    transform: translateX(0px);
-    opacity: 1;
-  }
+    0% {
+        transform: translateX(1000px);
+        opacity: 0;
+    }
+    50% {
+        transform: translateX(-200px);
+        opacity: 0.4;
+    }
+    75% {
+        transform: translateX(50px);
+        opacity: 0.7;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
 }
 @keyframes slideFromLeft {
-  0% {
-    transform: translateX(-1000px);
-    opacity: 0;
-  }
-  50% {
-    transform: translateX(200px);
-    opacity: 0.4;
-  }
-75% {
-    transform: translateX(-50px);
-    opacity: 0.7;
-  }
-100% {
-    transform: translateX(0px);
-    opacity: 1;
- }
+    0% {
+        transform: translateX(-1000px);
+        opacity: 0;
+    }
+    50% {
+        transform: translateX(200px);
+        opacity: 0.4;
+    }
+    75% {
+        transform: translateX(-50px);
+        opacity: 0.7;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
 }
 /* navbar */
 .nav-btn{
@@ -250,7 +250,7 @@ p {
     display: block;
     font-size: 1.1rem;
     padding: 0.4rem 1.3rem;
-    color: var(--clr-primary);
+    color: var(--clr-black);
     transition: var(--transition);
 }
 .nav-link:hover {
@@ -264,7 +264,9 @@ p {
     }
 }
 
+/* end of navbar */
 
+/* header */
 
 .header{
     min-height: 100vh;
@@ -284,14 +286,14 @@ p {
 .banner h2 {
     font-family: var(--ff-secondary);
     color: var(--clr-primary-3);
-    /* animation: slideFromRight 5s ease-in-out 1; */
+    animation: slideFromRight 5s ease-in-out 1; 
 }
 .banner h1 {
     color: var(--clr-white);
     text-transform: capitalize;
     margin-top: 1.25rem;
     margin-bottom: 2rem;
-    /* animation: slideFromLeft 5s ease-in-out 1; */
+    animation: slideFromLeft 5s ease-in-out 1; 
 }
 span{
     color: var(--clr-primary-3);
@@ -301,9 +303,9 @@ span{
     outline-offset: 0.25rem;
     font-size: 1.25rem;
     padding: 1rem 1.75rem;
-     /* margin-top: 2rem; */
-  /* background: var(--clr-primary-3); */
-    /* animation: show 5s ease-out 1; */
+    /* margin-top: 2rem; */
+    /* background: var(--clr-primary-3); */
+    animation: show 5s ease-out 1; 
 }
 /* content divider */
 .content-divider{
